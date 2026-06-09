@@ -1,0 +1,94 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+dist/
+build/
+*.whl
+*.egg-info
+Pipfile.lock
+
+# Virtual Environment
+.env
+.venv/
+venv/
+env/
+ENV/
+
+# Node
+node_modules/
+.next/
+out/
+dist/
+.cache/
+*.tsbuildinfo
+next-env.d.ts
+
+# Docker
+docker/volumes/
+*.log
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.sublime-*
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+*.lnk
+
+# Data & Uploads
+data/recordings/*
+data/uploads/*
+data/chroma/*
+!data/recordings/.gitkeep
+!data/uploads/.gitkeep
+!data/chroma/.gitkeep
+media/
+
+# Logs
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite3
+*.sqlite
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Coverage / Reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+.coverage.*
+coverage/
+*.cover
+test-output/
+
+# Misc
+*.bak
+*.orig
+tmp/
+temp/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
